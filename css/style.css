@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .green{
     background-color: #20c997;
 }
@@ -8,7 +13,7 @@
     background-color: blue;
 }
 .black{
-    background-color: black;
+    color: black;
 }
 .h100{
     height: 100px;
@@ -18,5 +23,63 @@
 }
 .margine{
     margin: 10px 0px;
-    background-color: blueviolet;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.avatar{
+    width: 50%;
+}
+.content{
+    display: flex;
+}
+.block{
+    display: block;
+}
+.white{
+    color: white;
+}
+hr{
+    display: inline-block;
+    width: 25%;
+    opacity: 100;
+    margin: 5px 5px;
+}
+.wid35{
+    width: 35%;
+}
+.img{
+    width: 100%;
+}
+.font{
+    font-size: 30px;
+    padding: 0px 50px 0px 50px;
+}
+.bottone-1{
+     color: white;
+     border: solid white;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-10{
+    font-size: 10px;
+}
+.font-15{
+    font-size: 15px;
+}
+.cerchio{
+    border-radius: 50%;
+    padding: 10px;
+    border: solid 1px white;
+    color: white;
+    font-size: 10px;
+}
+.stampato{
+    text-transform: uppercase;
 }
