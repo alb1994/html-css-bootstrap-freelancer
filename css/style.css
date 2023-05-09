@@ -1,0 +1,22 @@
+.green{
+    background-color: #20c997;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.h100{
+    height: 100px;
+}
+.h200{
+    height: 200px;
+}
+.margine{
+    margin: 10px 0px;
+    background-color: blueviolet;
+}
