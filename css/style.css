@@ -3,27 +3,65 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* colori */
 .green{
     background-color: #20c997;
 }
-.red{
-    background-color: red;
-}
 .blue{
-    background-color: blue;
+    background-color:rgb(41, 49, 72);
 }
-.black{
-    color: black;
+.blu{
+    background-color:rgb(33, 62, 149);
 }
-.h100{
-    height: 100px;
+.white{
+    color: white;
 }
-.h200{
-    height: 200px;
+/* bottoni*/
+.bottone-2{
+    background-color: #20c997;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-style: none;
 }
+.bottone-2:hover{
+    background-color: #026447;
+}
+.bottone-1{
+    color: white;
+    border: solid white;
+    padding: 7px;
+}
+ 
+/* font */
+.font-20{
+    font-size: 20px;
+}
+.font-10{
+    font-size: 10px;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-30{
+    font-size: 30px;
+    padding: 0px 50px 0px 50px;
+}
+/* altezze*/
 .margine{
     margin: 10px 0px;
 }
+.padding-10{
+    padding: 10px 0px;
+}
+.width-80{
+    width: 80%;
+}
+.wid35{
+    width: 35%;
+}
+/* altro */
 li{
     list-style-type: none;
     display: inline-block;
@@ -38,40 +76,14 @@ a{
 .content{
     display: flex;
 }
-.block{
+.block-img{
     display: block;
-}
-.white{
-    color: white;
 }
 hr{
     display: inline-block;
     width: 25%;
     opacity: 100;
     margin: 5px 5px;
-}
-.wid35{
-    width: 35%;
-}
-.img{
-    width: 100%;
-}
-.font{
-    font-size: 30px;
-    padding: 0px 50px 0px 50px;
-}
-.bottone-1{
-     color: white;
-     border: solid white;
-}
-.font-20{
-    font-size: 20px;
-}
-.font-10{
-    font-size: 10px;
-}
-.font-15{
-    font-size: 15px;
 }
 .cerchio{
     border-radius: 50%;
@@ -82,4 +94,11 @@ hr{
 }
 .stampato{
     text-transform: uppercase;
+}
+
+input, textarea{
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px gray;
+    padding: 10px 0px;
 }
